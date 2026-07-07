@@ -1,5 +1,7 @@
-mod day1;
+use day3::math_calculations::{add_numbers, say_hello};
 
+mod day3;
 fn main() {
-    day1::run();
+    say_hello();
+    add_numbers();
 }
