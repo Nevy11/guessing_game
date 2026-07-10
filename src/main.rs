@@ -1,7 +1,7 @@
 mod day3;
 mod day4;
+mod day5;
 fn main() {
-    // day4::loop_run();
-    let is_even = day4::enter_number();
-    println!("Is the number even? {}", is_even);
+    day5::if_else::if_else_example();
+    day5::if_else::match_statements();
 }
