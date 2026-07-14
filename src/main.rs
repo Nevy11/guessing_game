@@ -2,8 +2,13 @@ mod day3;
 mod day4;
 mod day5;
 mod day6;
+mod day7;
 fn main() {
-    day6::variable_scope::string_manipulation();
-    day6::variable_scope::sharing_data();
-    day6::transf_ownership::run_main();
+    day7::structures::record_user(
+        String::from("John"),
+        String::from("Doe"),
+        30,
+        String::from("Male"),
+        true,
+    )
 }
