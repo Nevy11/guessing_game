@@ -10,5 +10,8 @@ fn main() {
         30,
         String::from("Male"),
         true,
-    )
+    );
+
+    let area = day7::methods::calculate_area(5, 10);
+    println!("{area}, is just like above");
 }
