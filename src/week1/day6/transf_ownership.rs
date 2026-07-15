@@ -1,4 +1,4 @@
-use crate::day6;
+use crate::week1::day6;
 
 #[allow(dead_code)]
 pub fn return_ownership() -> String {
